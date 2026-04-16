@@ -6,10 +6,10 @@ on:
     - cron:  "0 0 * * *"
   push:
     branches:
-      - main
+      - "madler_main"
   pull_request:
     branches:
-      - main
+      - "madler_main"
 
 permissions: {}
 
