@@ -10,10 +10,10 @@ on:
       - "**/info.md"
       - "**/CHANGELOG.md"
     branches:
-      - "main"
+      - "madler_main"
   pull_request:
     branches:
-      - "main"
+      - "madler_main"
 
 jobs:
   hassfest: # https://developers.home-assistant.io/blog/2020/04/16/hassfest

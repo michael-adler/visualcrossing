@@ -3,10 +3,10 @@ name: "Lint"
 on:
   push:
     branches:
-      - "main"
+      - "madler_main"
   pull_request:
     branches:
-      - "main"
+      - "madler_main"
 
 jobs:
   ruff:
